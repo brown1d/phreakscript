@@ -1520,7 +1520,7 @@ phreak_patches() { # $1 = $PATCH_DIR, $2 = $AST_SRC_DIR
 
 	## Gerrit patches: remove once merged
 	gerrit_patch 19600 "https://gerrit.asterisk.org/changes/asterisk~19600/revisions/1/patch?download" # callerid: Allow specifying timezone.
-	gerrit_patch 19712 "https://gerrit.asterisk.org/changes/asterisk~19712/revisions/7/patch?download" # chan_iax2: Fix stalled jitterbuffer
+	#gerrit_patch 19712 "https://gerrit.asterisk.org/changes/asterisk~19712/revisions/7/patch?download" # chan_iax2: Fix stalled jitterbuffer
 	gerrit_patch 19744 "https://gerrit.asterisk.org/changes/asterisk~19744/revisions/1/patch?download" # config.c: fix template inheritance/overrides
 	gerrit_patch 19927 "https://gerrit.asterisk.org/changes/asterisk~19927/revisions/1/patch?download" # app_senddtmf: Add SendFlash AMI action
 
